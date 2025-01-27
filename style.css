@@ -12,7 +12,7 @@
     background: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
     --reverse-gradientMovoo:background: rgb(221,241,255);
     background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
-
++
     --padding-bouton:8px 16px;
 
     /* ||| Border radius ||| */
@@ -21,7 +21,9 @@
     --radius32:32px;
     --cercle:50%;
     }
-/* Reset CSS */
+/* =================================================
+                    RESET CSS
+================================================= */
 *{
     margin: 0;
     padding: 0;
@@ -35,62 +37,32 @@ li {
   list-style-type: none;
 }
 
-        /* Hero */
-.hero{
-    
-    height: 100vh;
+
+/* =================================================
+                    DIMENSIONS
+================================================= */
+.width100Pourcent{
+    width: 100%;
 }
-.backGroundGradient{
-    background-color: var(--gradientMovoo);
+.width50Pourcent{
+    width: 50%;
 }
-.backGroundGradientReverse{
-    background-color: var(--reverse-gradientMovoo);
+.width30Pourcent{
+    width: 30%;
 }
-.backGroundWhite{
-    background-color: white;
-}
-        /* Hero */
 
 
-        /* Footer */
-.backGroundViolet{
-    background-color: var(--violet);
-}
-.ligneBlanche{
-    height: 1px;
-    width: 25%;
-    background-color: white;
-}
-.footerGap32{
+/* =================================================
+                    ESPACEMENT
+================================================= */
+.gap32{
     gap: 32px;
 }
-.footerGap16{
-    gap: 16px;
-}
-        /* Footer */
 
 
-.container {
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
-}
-.btnMovoo{
-    padding:var(--padding-bouton);
-    border-radius: 40px;
-    background-color: var(--violet);
-    color: white;
-}
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-
-/* Texte */
-
+/* =================================================
+                    TEXTE
+================================================= */
 h1{
     font-size: 30px;
     font-weight: 700;
@@ -108,15 +80,105 @@ h3{
     text-align: center;
 }
 h4{
-    font-size: ;
-    font-weight: ;
+    font-size: 24px;
+    font-weight: 600;
     color: var(--ecriture);
 }
 .colorWhite{
     color: white;
 }
+.textAlignCenter{
+    text-align: center;
+}
 
-/* Debut Team Positionnement */
+
+
+
+
+
+/* =================================================
+                    HERO
+================================================= */
+.hero{
+    height: 100vh;
+}
+.backGroundGradient{
+    background-color: var(--gradientMovoo);
+}
+.backGroundGradientReverse{
+    background-color: var(--reverse-gradientMovoo);
+}
+.backGroundWhite{
+    background-color: white;
+}
+
+
+
+
+
+
+
+/* =================================================
+                    FOOTER
+================================================= */
+.backGroundViolet{
+    background-color: var(--violet);
+}
+.ligneBlanche{
+    height: 1px;
+    width: 25%;
+    background-color: white;
+}
+.footerGap32{
+    gap: 32px;
+}
+.footerGap16{
+    gap: 16px;
+}
+.footerHeight{
+    height: 200px;
+}
+
+
+
+
+
+
+
+/* =================================================
+                    TRUCS
+================================================= */
+.container {
+    /* max-width: 1000px; */
+    width: 80%;
+    margin: auto;
+}
+.btnMovoo{
+    padding:var(--padding-bouton);
+    border-radius: 40px;
+    background-color: var(--violet);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+.imgBoutonStore{
+    width: 120px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+/* =================================================
+                    POSITIONNEMENT
+================================================= */
 .positionRelative{
     position: relative;
 }
@@ -130,6 +192,9 @@ h4{
     display: flex;
     flex-wrap: wrap;
 }
+.column{
+    flex-direction: column;
+}
 .spaceBetween{
     justify-content: space-between;
 }
@@ -142,9 +207,6 @@ h4{
 .justifyContentCenter{
     justify-content: center;
 }
-.textAlignCenter{
-    text-align: center;
+.marginAuto{
+    margin: auto;
 }
-/* Fin Team positionnement */
-
-
