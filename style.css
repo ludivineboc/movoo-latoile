@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+:root{
+    /* ||| Les couleurs ||| */
+    --violet:#8C95F8;
+    --bleu-ciel:#8DD0FD;
+    --ecriture:#5F5858;
+    --bulle-1:#6E7AE6;
+    --bulle-2:#525CCB;
+    --rouge:#F65555;
+    --gradientMovoo:background: rgb(221,241,255);
+    background: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
+    --reverse-gradientMovoo:background: rgb(221,241,255);
+    background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
+
+    --padding-bouton:8px 16px;
+
+    /* ||| Border radius ||| */
+    --radius8:8px;
+    --radius16:16px;
+    --radius32:32px;
+    --cercle:50%;
+    }
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+        /* Hero */
+.hero{
+    
+    height: 100vh;
+}
+.backGroundGradient{
+    background-color: var(--gradientMovoo);
+}
+.backGroundGradientReverse{
+    background-color: var(--reverse-gradientMovoo);
+}
+.backGroundWhite{
+    background-color: white;
+}
+        /* Hero */
+
+
+        /* Footer */
+.backGroundViolet{
+    background-color: var(--violet);
+}
+.ligneBlanche{
+    height: 1px;
+    width: 25%;
+    background-color: white;
+}
+.footerGap32{
+    gap: 32px;
+}
+.footerGap16{
+    gap: 16px;
+}
+        /* Footer */
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.btnMovoo{
+    padding:var(--padding-bouton);
+    border-radius: 40px;
+    background-color: var(--violet);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Texte */
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--ecriture);
+}
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--ecriture);
+}
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--ecriture);
+    text-align: center;
+}
+h4{
+    font-size: ;
+    font-weight: ;
+    color: var(--ecriture);
+}
+.colorWhite{
+    color: white;
+}
+
+/* Debut Team Positionnement */
+.positionRelative{
+    position: relative;
+}
+.positionAbsolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.spaceAround{
+    justify-content: space-around;
+}
+.alignItemCenter{
+    align-items: center;
+}
+.justifyContentCenter{
+    justify-content: center;
+}
+.textAlignCenter{
+    text-align: center;
+}
+/* Fin Team positionnement */
+
+
