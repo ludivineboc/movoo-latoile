@@ -8,10 +8,8 @@
     --bulle-1:#6E7AE6;
     --bulle-2:#525CCB;
     --rouge:#F65555;
-    /* --gradientMovoo:background: rgb(221,241,255);
-    background: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
-    --reverse-gradientMovoo:rgb(221,241,255);
-    background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%); */
+    --gradientMovoo: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
+    --reverse-gradientMovoo: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
 
     --padding-bouton: 16px;
 
@@ -37,6 +35,9 @@ li {
   list-style-type: none;
 }
 
+
+
+
 /* =================================================
                     PADDING
                     MARGIN
@@ -56,6 +57,11 @@ li {
 .marginBottom64{
     margin-bottom: 64px;
 }
+
+
+
+
+
 /* =================================================
                     DIMENSIONS
 ================================================= */
@@ -116,6 +122,8 @@ li {
 }
 
 
+
+
 /* =================================================
                     ESPACEMENT
 ================================================= */
@@ -137,6 +145,8 @@ li {
 .gap128{
     gap: 128px;
 }
+
+
 
 
 /* =================================================
@@ -169,8 +179,6 @@ h4{
 .textAlignCenter{
     text-align: center;
 }
-
-
 
 
 
@@ -210,6 +218,9 @@ span img{
     right: 0;
 }
 
+
+
+
 /* =================================================
                     AVANTAGES
 ================================================= */
@@ -235,6 +246,9 @@ span img{
     transform: translate(-7%,125%);
 }
 
+
+
+
 /* =================================================
                     COMMENT ?
 ================================================= */
@@ -248,20 +262,14 @@ span img{
 }
 
 .backGroundGradient{
-    background: rgb(221,241,255);
-    background: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 95%);
+background: var(--gradientMovoo);
 }
 .backGroundGradientReverse{
-    background: rgb(221,241,255);
-    background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 95%);
+    background: var(--reverse-gradientMovoo);
 }
 .backGroundWhite{
     background-color: white;
 }
-
-
-
-
 
 
 
@@ -290,9 +298,6 @@ span img{
 
 
 
-
-
-
 /* =================================================
                     TRUCS
 ================================================= */
@@ -316,10 +321,6 @@ a {
 .imgBoutonStore{
     width: 11em;
 }
-
-
-
-
 
 
 
@@ -361,4 +362,42 @@ a {
 }
 .marginAuto{
     margin: auto;
+}
+
+
+
+
+/* =================================================
+                    DOCUMENTATION
+================================================= */
+nav ul li a{
+    color: var(--ecriture);
+}
+nav ul li{
+    margin: 8px;
+}
+nav ul li:hover{
+    transition: 0.25s;
+    outline: solid 2px var(--ecriture);
+    padding: 2px;
+    background-color: var(--bulle-2);
+        a{
+            color: white;
+        }
+}
+aside{
+    margin-left: 6px;
+}
+.navContainer {
+    color: var(--ecriture);
+    background-color: var(--bleu-ciel);
+    padding: 20px;
+    position: fixed;
+    top: 10%;
+    height: 60%;
+}
+
+.contentContainer {
+    padding: 20px;
+    margin-left: 20%;
 }
