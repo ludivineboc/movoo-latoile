@@ -44,6 +44,18 @@ li {
 .Padding16-32{
     padding: 16px 32px;
 }
+.marginBottom16{
+    margin-bottom: 16px;
+}
+.marginBottom32{
+    margin-bottom: 32px;
+}
+.marginBottom48{
+    margin-bottom: 48px;
+}
+.marginBottom64{
+    margin-bottom: 64px;
+}
 /* =================================================
                     DIMENSIONS
 ================================================= */
@@ -98,6 +110,10 @@ li {
 .width10Pourcent{
     width: 10%;
 }
+.minSVGsize{
+    min-width: 100px;
+    min-height: 100px;
+}
 
 
 /* =================================================
@@ -109,8 +125,17 @@ li {
 .gap64{
     gap: 64px;
 }
-.gap{
-    
+.gap72{
+    gap: 72px;
+}
+.gap84{
+    gap: 84px;
+}
+.gap96{
+    gap: 96px;
+}
+.gap128{
+    gap: 128px;
 }
 
 
@@ -154,14 +179,73 @@ h4{
                     HERO
 ================================================= */
 .hero{
-    height: 100vh;
+    min-height: 100vh;
 }
-.hero span img{
+span img{
     height: 28px;
 }
+.positionHero{
+    top: 10%;
+}
+.qrCode{
+    margin-top: 32px;
+    background-color: white;
+    width: 122px;
+    height: 122px;
+}
+.qrCode img{
+    width: 122px;
+    height: 122px;
+}
+.shothero {
+    position: absolute;
+    width: 70%;
+    bottom: 0;
+    right: 5%;
+}
+.shothero img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
+/* =================================================
+                    AVANTAGES
+================================================= */
+.card{
+    width: 30%;
+    background-color: var(--violet);
+    border-radius: var(--radius32);
+    display: flex;
+    flex-direction: column;
+    /* gap: 56px; */
+    padding: 24px;
+    color: white;
+    align-items: self-start;
+    min-height: 320px;
+}
+.card h4 {
+    color: white;
+}
+.card div {
+    align-self: flex-start;
+}
+.configAbsolute{
+    transform: translate(-7%,125%);
+}
 
-
+/* =================================================
+                    COMMENT ?
+================================================= */
+.positionBulle{
+    position: absolute;
+    transform: translate(5%,-300%);
+    z-index: 10;
+}
+.split img{
+    width: 100%;
+}
 
 .backGroundGradient{
     background: rgb(221,241,255);
@@ -174,15 +258,7 @@ h4{
 .backGroundWhite{
     background-color: white;
 }
-.shothero {
-    position: absolute;
-    width: 60%;
-    bottom: 0;
-    right: 0;
-}
-.shothero img{
-    width: 100%;
-}
+
 
 
 
@@ -238,8 +314,7 @@ a {
     font-size: 16px;
 }
 .imgBoutonStore{
-    width: 120px;
-    height: 40px;
+    width: 11em;
 }
 
 
@@ -275,12 +350,15 @@ a {
 .alignItemCenter{
     align-items: center;
 }
+.justifyContentRight{
+    justify-content: right;
+}
 .justifyContentCenter{
     justify-content: center;
 }
+.justifyContentLeft{
+    justify-content: left;
+}
 .marginAuto{
     margin: auto;
-}
-.test{
-    top: 5%;
 }

@@ -26,22 +26,33 @@
       <div class="container">
 
         <!-- Div Texte & Lien téléchargement App -->
-        <div class="width70Pourcent alignItemCentepositionAbsolute test Padding16-32 heighflex column gap32">
+        <div class="width70Pourcent positionAbsolute Padding16-32 justifyContentLeft marginBottom64 positionHero">
             <!-- Titre & CTA -->
-            <div class="Padding16-32">
-                <h4>Adoptez la mobilité douce : pour un futur plus vert, plus calme et plus humain</h4>
-                <h4>Avec <span><img src="assets/Movoo.png" alt=""></span> c’est plus simple</h4>
-                <a href="" class="btnMovoo">Découvrez l'application</a>
+            <div class=" justifyContentLeft  marginBottom32">
+                <div class="marginBottom16 width70Pourcent">
+                    <h4>Adoptez la mobilité douce : pour un futur plus vert, plus calme et plus humain</h4>
+                </div>
+                <div class="marginBottom48">
+                    <h4>Avec <span><img src="assets/Movoo.png" alt=""></span> c’est plus simple</h4>
+                </div>
+                <div class="marginBottom48">
+                    <a href="" class="btnMovoo">Découvrez l'application</a>
+                </div>
             </div>
             <!-- Play & AppStore -->
-            <div class="flex justifyContentCenter marginAuto gap32">
+            <div class="flex justifyContentLeft marginAuto gap32 marginBottom64">
                 <img src="assets/AppStore.png" alt="Lien qui mène au AppleStore" class="imgBoutonStore">
                 <img src="assets/Playstore.png" alt="Lien qui mène au Playstore" class="imgBoutonStore">
             </div>
+
+            <!-- QR Code 😎 -->
+             <div class="qrCode">
+                <img src="assets/hero/QR_Code.svg" width="100px" alt="QR code qui mène vers les portfolios des super devs">
+             </div>
         </div>
 
         <!-- Image Shot.so -->
-        <div class="positionAbsolute shothero width0Pourcent">
+        <div class="positionAbsolute positionRelative shothero">
             <img src="assets/hero/Shotso_hero.png" alt="">
         </div>
       </div>      
@@ -51,21 +62,148 @@
     <!-- ===================== -->
     <!-- 2 - Section AVANTAGES -->
     <!-- ===================== -->
-    <section class="hero backGroundWhite"></section>
-        <h3>Une application simple et intuitive pour tous</h3>
+    <section class="hero backGroundWhite container Padding16-32">
+        <div class=" flex width100Pourcent justifyContentCenter gap84">
+            <!-- Titre -->
+            <div class="width100Pourcent">
+                <h3>Une application simple et intuitive pour tous</h3>
+            </div>
+            <!--    ========    -->
+            <!-- Div des Cartes -->
+            <!--    ========    -->
+            <div class="flex width100Pourcent gap32">
+                <!-- Cartes -->
+
+                 <!-- Disponibilite --> 
+                 <div class="card">
+                    <div class="flex justifyContentCenter">
+                        <!-- Image -->
+                        <div class="minSVGsize"><img src="assets/avatanges/disponibilite.svg" alt="Image d'un calendrier"></div>
+                        <!-- Texte -->
+                        <div>
+                            <h4>Disponibilité</h4>
+                            <p>Nos accompagnateurs sont prêts à garantir un trajet en toute sécurité et sérénité pour votre enfant, en fonction de vos besoins et horaires.</p>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Securisant -->
+                 <div class="card">
+                    <div class="flex justifyContentCenter">
+                        <!-- Image -->
+                        <div class="minSVGsize"><img src="assets/avatanges/securisant.svg" alt="Image d'un bouclier"></div>
+                        <!-- Texte -->
+                        <div>
+                            <h4>Sécurisant</h4>
+                            <p>Notre application offre un suivi en temps réel garantissant des trajets sûrs et sereins.</p>
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Gratuit -->
+                 <div class="card">
+                    <!-- images -->
+                    <div class="flex justifyContentCenter">
+                        <img src="assets/avatanges/gratuit_sac.svg" alt="" class="positionRelative">
+                        <img src="assets/avatanges/gratuit_euro.svg" alt="" class="positionAbsolute configAbsolute">
+                        <div>
+                            <h4>Gratuit</h4>
+                            <p>L'application est entièrement gratuite, pour que vous puissiez profiter d'une mobilité douce !</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!-- Motivation -->
+            <div class="width70Pourcent">
+                <p>Pour un futur plus vert et plus sain, adoptons la mobilité douce &#33 En marchant, en roulant à vélo ou en trottinette, on prend soin de notre planète, tout en s&#39amusant et en restant actifs. Ensemble, faisons de chaque déplacement une aventure éco-responsable pour nous et pour nos enfants &#33</p>
+            </div>
+</div>
+    </section>
     
-    <!-- ====================== -->
+    <!-- ============================ -->
     <!-- 3 - Section POURQUOI MOVOO ? -->
-    <!-- ====================== -->
-    <section class="hero backGroundGradientReverse"></section>
-        <h3>Pourquoi Movoo ?</h3>
+    <!-- ============================ -->
+    <section class="hero backGroundGradientReverse flex justifyContentCenter marginAuto">
+        <div>
+            <h3>Pourquoi Movoo ?</h3>
+
+            <!-- Cartes -->
+            <div class="flex spaceAround">
+                <!-- Carte 1 -->
+                <div class="flex gap32 card width20Pourcent">
+                    <div>
+                        <h3>50 ans</h3>
+                        <p>les enfants marchaient seuls jusqu’à 3 kilomètres autour de leur domicile</p>
+                    </div>
+                </div>
+                <!-- Carte 2 -->
+                <div class="flex gap32 card width20Pourcent">
+                    <div>
+                        <h3>40&#37</h3>
+                        <p>Des 3 &#45 10ans ne jouent jamais dehors pendant la semaine</p>
+                    </div>
+                </div>
+                <!-- Carte 3 -->
+                <div class="flex gap32 card width20Pourcent">
+                    <div>
+                        <h3>50&#37</h3>
+                        <p>Des 3 &#45 10ans vont à l&#39école en voiture</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <a href="" alt="Lien qui mène vers la documentation" class="btnMovoo">Voir la documentation</a>
+            </div>
+        </div>
+    </section>
+
     
     <!-- ===================== -->
     <!-- 4 - Section Comment ? -->
     <!-- ===================== -->
-    <section class="hero backGroundWhite"></section>
-        <h3>Comment fonctionne Movoo ?</h3>
+    <section class="hero backGroundWhite positionRelative"></section>
+        <h3>Comment fonctionne <span><img src="assets/Movoo.png" alt=""></span> ?</h3>
 
+
+
+        <div class="flex">
+            
+            
+            
+            <div class="width30Pourcent split">
+                <img src="assets/comment-ca-marche/shots/organiser_une_rencontre.png" alt="">
+            </div>
+            
+            
+            
+            <div class="width30Pourcent split">
+                <img src="assets/comment-ca-marche/Bulle_gauche.svg" alt="">
+            </div>
+            
+            
+            
+            <div class="width30Pourcent"></div>
+
+
+
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+    
+    
 
     <!-- =============================== -->
     <!-- 5 - Section TEMOIGNAGES CLIENTS -->
@@ -74,14 +212,40 @@
         <h3>Témoignages client</h3>
 
         <h4 class="textAlignCenter">Déjà 500 personnes sur notre application</h4>
+        
+        <div>
+            <img src="" alt="">
+            <h4>David</h4>
+            <p>"J'utilise Movoo depuis quelques semaines et l'interface est simple et intuitive. Je la recommande vivement !"</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h4>William</h4>
+            <p>“Grâce à Movoo, je peux suivre les trajets de mon enfant en toute sécurité tout en encourageant des modes de transport plus écologiques. C’est simple, pratique et rassurant !”</p>
+        </div>
+        <div>
+            <img src="" alt="">
+            <h4>Laurent</h4>
+            <p>"Avec Movoo, je suis serein en voyant mon enfant se déplacer de manière éco-responsable et en toute sécurité."</p>
+        </div>
     </section>
 
     <!-- Play & AppStore -->
-    <div class="flex justifyContentCenter marginAuto gap32">
+    <section>
+        <div>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="900" src="https://embed.figma.com/proto/uAfCnWxMIk2rn4JofFOqU6/projet-1-Movoo-groupe2?page-id=4711%3A10978&node-id=4711-11258&p=f&viewport=53%2C402%2C0.09&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4711%3A11640&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+        </div>
+
+    
+    <div>
+        <h3> une solution de mobilité douce, intuitive et éco-responsable.</h3>
+        <p>Grâce à notre application, accompagnez votre enfant dans ses déplacements quotidiens en toute sécurité et simplicité. Offrant une solution de mobilité douce, intuitive et éco-responsable, elle vous permet de planifier des trajets adaptés à leurs besoins tout en favorisant un mode de transport respectueux de l’environnement. De plus, grâce à la carte en temps réel, suivez votre enfant en direct, où qu’il soit, pour une tranquillité d'esprit totale. Parce que chaque trajet compte, choisissez une alternative pratique, sécurisée pour vos petits aventuriers.</p>
+    </div>
+        <div class="flex justifyContentCenter marginAuto gap32">
         <img src="assets/AppStore.png" alt="Lien qui mène au AppleStore" class="imgBoutonStore">
         <img src="assets/Playstore.png" alt="Lien qui mène au Playstore" class="imgBoutonStore">
     </div>
-
+    </section>
     <!-- =============================== -->
     <!-- ============FOOTER============= -->
     <!-- =============================== -->
