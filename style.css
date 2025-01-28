@@ -8,12 +8,12 @@
     --bulle-1:#6E7AE6;
     --bulle-2:#525CCB;
     --rouge:#F65555;
-    --gradientMovoo:background: rgb(221,241,255);
+    /* --gradientMovoo:background: rgb(221,241,255);
     background: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
-    --reverse-gradientMovoo:background: rgb(221,241,255);
-    background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%);
-+
-    --padding-bouton:8px 16px;
+    --reverse-gradientMovoo:rgb(221,241,255);
+    background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 100%); */
+
+    --padding-bouton: 16px;
 
     /* ||| Border radius ||| */
     --radius8:8px;
@@ -37,18 +37,66 @@ li {
   list-style-type: none;
 }
 
-
+/* =================================================
+                    PADDING
+                    MARGIN
+================================================= */
+.Padding16-32{
+    padding: 16px 32px;
+}
 /* =================================================
                     DIMENSIONS
 ================================================= */
 .width100Pourcent{
     width: 100%;
 }
+.width95Pourcent{
+    width: 95%;
+}
+.width90Pourcent{
+    width: 90%;
+}
+.width85Pourcent{
+    width: 85%;
+}
+.width80Pourcent{
+    width: 80%;
+}
+.width75Pourcent{
+    width: 75%;
+}
+.width70Pourcent{
+    width: 70%;
+}
+.width65Pourcent{
+    width: 65%;
+}
+.width60Pourcent{
+    width: 60%;
+}
 .width50Pourcent{
     width: 50%;
 }
+.width45Pourcent{
+    width: 45%;
+}
+.width40Pourcent{
+    width: 40%;
+}
+.width35Pourcent{
+    width: 35%;
+}
 .width30Pourcent{
     width: 30%;
+}
+.width20Pourcent{
+    width: 20%;
+}
+.width15Pourcent{
+    width: 15%;
+}
+.width10Pourcent{
+    width: 10%;
 }
 
 
@@ -57,6 +105,12 @@ li {
 ================================================= */
 .gap32{
     gap: 32px;
+}
+.gap64{
+    gap: 64px;
+}
+.gap{
+    
 }
 
 
@@ -102,14 +156,32 @@ h4{
 .hero{
     height: 100vh;
 }
+.hero span img{
+    height: 28px;
+}
+
+
+
+
 .backGroundGradient{
-    background-color: var(--gradientMovoo);
+    background: rgb(221,241,255);
+    background: linear-gradient(180deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 95%);
 }
 .backGroundGradientReverse{
-    background-color: var(--reverse-gradientMovoo);
+    background: rgb(221,241,255);
+    background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(239,213,245,1) 95%);
 }
 .backGroundWhite{
     background-color: white;
+}
+.shothero {
+    position: absolute;
+    width: 60%;
+    bottom: 0;
+    right: 0;
+}
+.shothero img{
+    width: 100%;
 }
 
 
@@ -154,7 +226,7 @@ h4{
     margin: auto;
 }
 .btnMovoo{
-    padding:var(--padding-bouton);
+    padding:8px 16px;
     border-radius: 40px;
     background-color: var(--violet);
     color: white;
@@ -176,6 +248,7 @@ a {
 
 
 
+
 /* =================================================
                     POSITIONNEMENT
 ================================================= */
@@ -184,8 +257,6 @@ a {
 }
 .positionAbsolute{
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 1;
 }
 .flex {
@@ -209,4 +280,7 @@ a {
 }
 .marginAuto{
     margin: auto;
+}
+.test{
+    top: 5%;
 }
