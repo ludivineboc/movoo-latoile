@@ -168,6 +168,95 @@ nav li{
     width: 10%;
 }
 
+.max-width-5 {
+    max-width: 5%;
+  }
+  
+  .max-width-10 {
+    max-width: 10%;
+  }
+  
+  .max-width-15 {
+    max-width: 15%;
+  }
+  
+  .max-width-20 {
+    max-width: 20%;
+  }
+  
+  .max-width-25 {
+    max-width: 25%;
+  }
+  
+  .max-width-30 {
+    max-width: 30%;
+  }
+  
+  .max-width-35 {
+    max-width: 35%;
+  }
+  
+  .max-width-40 {
+    max-width: 40%;
+  }
+  
+  .max-width-45 {
+    max-width: 45%;
+  }
+  
+  .max-width-50 {
+    max-width: 50%;
+  }
+  
+  .max-width-55 {
+    max-width: 55%;
+  }
+  
+  .max-width-60 {
+    max-width: 60%;
+  }
+  
+  .max-width-65 {
+    max-width: 65%;
+  }
+  
+  .max-width-70 {
+    max-width: 70%;
+  }
+  
+  .max-width-75 {
+    max-width: 75%;
+  }
+  
+  .max-width-80 {
+    max-width: 80%;
+  }
+  
+  .max-width-85 {
+    max-width: 85%;
+  }
+  
+  .max-width-90 {
+    max-width: 90%;
+  }
+  
+  .max-width-95 {
+    max-width: 95%;
+  }
+  
+  .max-width-100 {
+    max-width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
 .minSVGsize{
     min-width: 100px;
     min-height: 100px;
@@ -224,6 +313,13 @@ h4{
     font-size: 24px;
     font-weight: 600;
     color: var(--ecriture);
+}
+
+h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--ecriture);
+    text-align: center;
 }
 header {
     color: var(--ecriture);
@@ -452,11 +548,12 @@ background: var(--gradientMovoo);
     /* gap: 56px; */
     padding: 24px;
     color: white;
-    align-items: self-startn;
+    align-items: self-start;
     min-height: 220px;
     
     h4{
         color: white;
+        margin-bottom: 8px;
     }
     img{
         width: 70px;
@@ -476,6 +573,9 @@ iframe {
 }
 .fitcontent{
     width: fit-content;
+}
+.avis img{
+    width: 12em;
 }
 
 /* =================================================
@@ -560,6 +660,9 @@ a {
 .spaceAround{
     justify-content: space-around;
 }
+.spaceEvenly{
+    justify-content: space-evenly;
+}
 .alignItemCenter{
     align-items: center;
 }
@@ -617,6 +720,7 @@ a {
     padding: 16px;
    border-radius: var(--radius16);
 }
+
 
 
 
@@ -709,6 +813,7 @@ aside{
 .imgidée {
  object-fit: cover;
 }
+
 /* SECTION À qui est destiné notre application ? */
 .sizePdf{
     width: 32px;
