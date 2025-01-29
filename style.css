@@ -32,11 +32,20 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style-type: none;
+
+/* =================================================
+                    BORDER RADIUS
+================================================= */
+
+.borderRadius8 {
+    border-radius: var(--radius8);
 }
-
-
+.borderRadius16 {
+    border-radius: var(--radius16);
+}
+.borderRadius32 {
+    border-radius: var(--radius32);
+}
 
 
 /* =================================================
@@ -57,6 +66,13 @@ li {
 }
 .marginBottom64{
     margin-bottom: 64px;
+}
+
+.marginTop48 {
+    margin-top: 48px;
+}
+.marginBottom70{
+    margin-bottom: 70px;
 }
 
 
@@ -117,6 +133,7 @@ li {
 .width10Pourcent{
     width: 10%;
 }
+
 .minSVGsize{
     min-width: 100px;
     min-height: 100px;
@@ -182,7 +199,7 @@ h4{
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .grayFont {
@@ -252,8 +269,27 @@ span img{
     transform: translate(-7%,125%);
 }
 
-
-
+/* =================================================
+                    POURQUOI MOVOO
+================================================= */
+.cardPourquoi{
+    width: 30%;
+    background-color: var(--violet);
+    border-radius: var(--radius32);
+    display: flex;
+    flex-direction: column;
+    /* gap: 56px; */
+    padding: 24px;
+    color: white;
+    align-items: self-start;
+    height: fit-content;
+}
+.cardPourquoi h3 {
+    color: white;
+}
+.cardPourquoi div {
+    align-self: flex-start;
+}
 
 
 
@@ -300,9 +336,7 @@ background: var(--gradientMovoo);
         text-align: center;
         padding-bottom: 16px;
     }
-    p{
 
-    }
 }
 
 .bulle-gauche{
@@ -458,6 +492,12 @@ a {
 /* =================================================
                     DOCUMENTATION
 ================================================= */
+.bodyDocu {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
 nav ul li a{
     color: var(--ecriture);
 }
@@ -465,10 +505,10 @@ nav ul li{
     margin: 8px;
 }
 nav ul li:hover{
-    transition: 0.25s;
+    transition: 0.1s;
     outline: solid 2px var(--ecriture);
     padding: 2px;
-    background-color: var(--bulle-2);
+    background-color: var(--violet);
         a{
             color: white;
         }
@@ -505,6 +545,14 @@ aside{
     font-size: 0.9rem;
 }
 
+.problematiqueFont {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.imgEtape img {
+    object-fit: contain;
+}
 
 
 /* DOCUMENTATION */

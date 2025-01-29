@@ -13,8 +13,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-<body>
-    <body>
+<body class="bodyDocu">
+
 
     <!-- ================ -->
     <!-- 1 - Section HERO -->
@@ -54,7 +54,7 @@
     <!-- ================ -->
     <!-- 1 - menu latérale -->
     <!-- ================ -->
-            <aside class="navContainer width20Pourcent">
+            <aside class="navContainer width20Pourcent backGroundGradient radius16">
                 <nav>
                     <ul>
                         <li><a href="#pourquoi-cette-idee">Pourquoi cette idée ?</a></li>
@@ -128,70 +128,148 @@
 
                 <section id="problematique" class="paddingSection"> <!-- PROBLEMATIQUE-->
                     <h2 class="marginBottom64 textAlignCenter" >Notre problématique</h2>
-                    <p>Comment aider Louis à trouver un accompagnant lors des  déplacements de mobilité douce de sa fille afin qu’il soit rassuré ?</p>
+                    <p class="problematiqueFont textAlignCenter">Comment aider Louis à trouver un accompagnant lors des  déplacements de mobilité douce de sa fille afin qu’il soit rassuré ?</p>
   
 
                 </section>
 
                 <section id="notre-solution" class="paddingSection">  <!-- SOLUTION-->
                     <h2 class="marginBottom64 textAlignCenter" >Notre solution</h2>
-                    <p>Une application mobile aidant les parents à trouver un accompagnant lors des déplacements de mobilité douce de leurs enfants.</p>
-                    <ul>
-                        <li>Une liste d’accompagnants de confiance </li>
-                        <li>La possibilité de filtrer les trajets en fonction de nos exigences</li>
-                        <li>Un espace de messagerie pour échanger entre parents et accompagnants</li>
-                        <li>Une suivi du trajet de l’enfant en temps réel</li>
+                    <p>Une <span class="bold">application mobile </span>aidant les parents à trouver un accompagnant lors des déplacements de <span class="bold">mobilité douce</span> de leurs enfants.</p>
+                    <ul class="solutionList marginTop48">
+                        <li>Une liste d’accompagnants de <span class="bold">confiance</span> </li>
+                        <li>La possibilité de <span class="bold">filtrer les trajets</span> en fonction de nos exigences</li>
+                        <li>Un espace de <span class="bold">messagerie  </span>pour échanger entre parents etaccompagnants</li>
+                        <li>Une <span class="bold"> suivi du trajet </span> de l’enfant en temps réel</li>
                     </ul>
 
                 </section>
 
                 <section id="userflow" class="paddingSection">  <!-- USER FLOW-->
-                    <img src="" alt="" class="width100Pourcent">
+                    <h2 class="marginBottom64 textAlignCenter">Userflow</h2>
+                    <img src="assets_docu/UserFlow.png" alt="Userflow" class="width100Pourcent">
                 </section>
+                
 
-                <section id="etapes-conception" class="paddingSection">  <!-- ETAPES COCNEPTIONS-->
-                    <h2 class="marginBottom64 textAlignCenter">Étapes de conception</h2>
+                <section id="etapes-conception" class="etapesConception paddingSection">  <!-- ETAPES COCNEPTIONS-->
+                   <h2 class="marginBottom64 textAlignCenter"> Etapes de conception</h2>
+
+                    <!--LowFi-->
                     <h3>Low Fi</h3>
-                    <img src="" alt="" class="width100Pourcent">
+                    <img src="assets_docu/Etapes_conception/low_fi.png" alt="" class="width100Pourcent marginBottom48 marginTop48">
 
+                    <!--Midfi-->
                     <h3>Mid Fi</h3>
-                    <div class="flex spaceBetween">
-                        <img src="" alt="" class="width20Pourcent">
-                        <img src="" alt="" class="width20Pourcent">
-                        <img src="" alt="" class="width20Pourcent">
-                        <img src="" alt="" class="width20Pourcent">
+                    <div class="flex spaceBetween marginBottom48 marginTop48 width100Pourcent">
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Mid_fi/Messageriemidfi.png" alt="" class="width100Pourcent ">
+                            <p>Messagerie</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Mid_fi/Profil_midfi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Profil</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Mid_fi/carte_midfi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Suivi du trajet</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Mid_fi/reserver_un_trajet_midfi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Réserver un trajet</p>
+                        </div>
                     </div>
 
+                    <!--HighFi-->
                     <h3>High Fi</h3>
-                    <div class="flex spaceBetween">
-                        <img src="" alt="" class="width20Pourcent">
-                        <img src="" alt="" class="width20Pourcent">
-                        <img src="" alt="" class="width20Pourcent">
-                        <img src="" alt="" class="width20Pourcent">
+                    <div class="flex spaceBetween marginBottom48 marginTop48 width100Pourcent">
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/High_fi/Messagerie_high-fi.png" alt="" class="width100Pourcent imgEtape" >
+                            <p>Messagerie</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/High_fi/reserver_un_trajet_high-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Réserver un trajet</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/High_fi/profil_high-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Profil</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/High_fi/suivi_trajet_high-fi.png" alt="" class="width100Pourcent imgEtape">
+
+                            <p>Suivi du trajet</p>
+                        </div>
                     </div>
-
                 </section>
 
-                <section id="prototype" class="paddingSection">  <!-- PROTOTYPE-->
+                
+
+
+                <!-- SECTION PROTOTYPE-->
+                <section id="prototype" class="paddingSection">  
                     <h2 class="marginBottom64 textAlignCenter">Prototype</h2>
-                    
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/uAfCnWxMIk2rn4JofFOqU6/projet-1-Movoo-groupe2?page-id=1%3A2&node-id=3953-4062&viewport=1558%2C-845%2C0.18&scaling=scale-down" allowfullscreen></iframe>
                 </section>
 
-                <section id="retours-test-utilisateurs" class="paddingSection">  <!-- RETOUR UTILI-->
+
+
+
+                <!-- SECTION RETOUR UTILISATEUR-->
+                <section id="retours-test-utilisateurs" class="paddingSection">  
                     <h2 class="marginBottom64 textAlignCenter">Retours de test utilisateurs</h2>
-                    <p>La majorité des utilisateurs ont compris la fonctionnalité de l’application, ils ont dit que l’application est intuitif et facile d’utilisation. De plus, ils recommandent fortement l’application et ont attesté vouloir utiliser l’application lorsqu’il seront en mesure de pouvoir l’utiliser. Cependant au niveau de l’accueil, il y a eu une certaine incompréhension des boutons à appuyer et, qui est dû au fait que lire la description après le titre n’est pas intuitif pour un utilisateur, il a donc été modifié.</p>
+                    <p>La majorité des utilisateurs ont compris la fonctionnalité de l’application, ils ont dit que l’application est <span class="bold">intuitif et facile d’utilisation.</span> 
+                        <br>
+                        De plus, ils recommandent fortement l’application et ont attesté vouloir utiliser l’application lorsqu’il seront en mesure de pouvoir l’utiliser. Cependant au niveau de l’accueil, il y a eu une certaine <span class="bold">incompréhension des boutons à appuyer </span> et, qui est dû au fait que lire la description après le titre n’est pas intuitif pour un utilisateur, il a donc été modifié.</p>
                     <ul>
-                        <li>Lors de notre test utilisateur, une personne n’a pas réussi à bien comprendre ce qu’il fallait faire, on s’est rendu compte qu’il s’agit au moment de la notification de la réception du message de l’accompagnant  qui était  trop petit et donc on a voulu faire une notification type iPhone qui est plus intuitif et facile de compréhension.</li>
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <li class="marginTop48">Lors de notre test utilisateur, une personne n’a pas réussi à bien comprendre ce qu’il fallait faire, on s’est rendu compte qu’il s’agit au moment de la notification de la réception du message de l’accompagnant  qui était  trop petit et donc on a voulu faire une notification type iPhone qui est plus intuitif et facile de compréhension.
+                            <div class="flex">
+                                <div class="width35Pourcent"> 
+                                    <img src="" alt="" class="width100Pourcent"> 
+                                    <p>Avant</p>
+                                </div>
+                                <div class="width35Pourcent"> 
+                                    <img src="" alt="" class="width100Pourcent"> 
+                                    <p>Aprés</p> 
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="marginTop48">Au niveau de l’écran d’accueil, nous n’avions pas rajouté la fonctionnalité de réservation temporaire, pour que ce soit plus facile de compréhension, nous avons décidé de rajouter un bouton permettant directement de confirmer la réservation directement de l’accueil. 
+                            <div class="flex">
+                                <div>
+                                    <img src="" alt=""> 
+                                    <p>Avant</p>     
+                                </div>      
+                                <div>               
+                                    <img src="" alt="">
+                                    <p>Après</p>
+                                </div>
+                            </div></li>
+
+                        <li class="marginTop48">Durant la phase des messages, l’affichage des boutons n’était pas assez compréhensible, nous avons décidé de l’agrandir, de centrer les boutons, de rajouter un aperçu du trajet sous forme d’une mini carte et d’y mettre une petite animation afin qu’elle soit plus facile de compréhension.
+                            <div class="flex">
+                                <div>
+                                    <img src="" alt=""> 
+                                    <p>Avant</p> 
+                                </div>
+                                <div>                         
+                                    <img src="" alt="">
+                                    <p>Après</p>
+                                </div>
+                            </div></li>
                     </ul>
                 </section>
 
-                <section id="evolutions-envisagees" class="paddingSection">  <!-- EVOLUTIONS-->
+
+
+
+                <!-- SECTION  MISE A JOURS FUTUR-->
+                <section id="evolutions-envisagees" class="paddingSection">  
                     <h2 class="marginBottom64 textAlignCenter">Future mise à jour</h2>
                     <p>Afin de proposer un services toujours plus proche de nos utilisateurs, nous avons envisagé des futurs fonctionnalités : </p>
                     <p>3 grandes nouvelles fonctionnalités seront ajouté : </p>
-                    <ul class="">
+                    <ul>
                         <li>La marche détente qui consistera à pouvoir se promener en binôme ou en groupe avec d’autres personnes grâce au site. Ils pourront être filtrés  en fonction des exigences des différents utilisateurs (sous forme de tag)</li>
                         <li>La balade à vélo qui suit le même principe que la marche détente mais avec une mobilité douce différente, ici le vélo</li>
                         <li>Les courses qui consiste à accompagner une personne en incapacité de pouvoir faire ses courses seuls, cela peut cible les personnes âgés comme les personnes à mobilité réduites ou éventuellement les personnes possédant une maladie non visible</li>
@@ -206,3 +284,11 @@
         </div>
 </body>
 </html>
+<h2 class="marginBottom64 textAlignCenter"> Etapes de conception</h2>
+                500px
+                                            
+
+                    
+                    </ul>
+                    
+                    
