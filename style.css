@@ -68,6 +68,9 @@ a {
 .marginBottom64{
     margin-bottom: 64px;
 }
+.marginBottom70{
+    margin-bottom: 70px;
+}
 
 .marginTop48 {
     margin-top: 48px;
@@ -124,6 +127,9 @@ a {
 }
 .width30Pourcent{
     width: 30%;
+}
+.width25Pourcent{
+    width: 25%
 }
 .width20Pourcent{
     width: 20%;
@@ -190,6 +196,9 @@ h3{
 h4{
     font-size: 24px;
     font-weight: 600;
+    color: var(--ecriture);
+}
+header {
     color: var(--ecriture);
 }
 .colorWhite{
@@ -378,7 +387,7 @@ background: var(--gradientMovoo);
 /* =================================================
                     TEMOIGNAGES
 ================================================= */
-.card1{
+.cardTemoignage{
     width: 20%;
     background-color: var(--violet);
     border-radius: var(--radius32);
@@ -387,15 +396,26 @@ background: var(--gradientMovoo);
     /* gap: 56px; */
     padding: 24px;
     color: white;
-    align-items: self-start;
-    min-height: 320px;
+    align-items: self-startn;
+    min-height: 260px;
     
     h4{
         color: white;
     }
     img{
-        width: 100%;
+        width: 70px;
+        margin-top: -120px;
     }
+}
+.displayBlock{
+    display: block;
+}
+iframe {
+    width: 100%;
+    box-shadow: 0px -2px 32px rgb(186, 174, 174);
+}
+.fitcontent{
+    width: fit-content;
 }
 
 /* =================================================
@@ -436,6 +456,12 @@ background: var(--gradientMovoo);
     background-color: var(--violet);
     color: white;
 }
+.btnMovoo:hover{
+    padding:8px 16px;
+    border-radius: 40px;
+    background-color:white;
+    color: var(--violet);
+}
 a {
     text-decoration: none;
     color: white;
@@ -445,6 +471,7 @@ a {
 .imgBoutonStore{
     width: 11em;
 }
+
 
 
 
@@ -491,6 +518,17 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* =================================================
                     DOCUMENTATION
 ================================================= */
@@ -498,7 +536,14 @@ a {
     font-weight: 200;
     font-size: 16px;
     line-height: 1.9;
+    background-image:url("./assets_docu/bg.png");
+
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    
+    
 }
+
 
 .bgPurple {
     background-color: #F6F0FF;
@@ -510,9 +555,10 @@ a {
     position: sticky;
     top: 10%;
     padding: 16px;
-   
-   
+   border-radius: var(--radius16);
 }
+
+
 
 nav ul li a{
     color: var(--ecriture);
@@ -525,11 +571,12 @@ nav ul li{
 nav ul li:hover{
     transition: 0.1s;
     outline: solid 2px var(--ecriture);
-    padding: 2px;
+    padding: 2px 2px 2px 10px;
     background-color: var(--violet);
         a{
             color: white;
         }
+    border-radius: var(--radius16);
 }
 aside{
     margin-left: 6px;
@@ -538,6 +585,28 @@ aside{
     color: var(--ecriture);
     padding: 20px;
 }
+
+
+
+
+/* SECTION HERO*/
+.telhero {
+    position: absolute;
+    width: 70%;
+    bottom: -6%;
+    right: 5%;
+}
+.telhero img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
 
 .contentContainer {
     padding: 20px 60px;
@@ -571,11 +640,9 @@ aside{
 
 
 
-/* DOCUMENTATION */
 /* SECTION Pourquoi cette idée */
 /* SECTION À qui est destiné notre application ? */
 /* SECTION Problématique */
 /* SECTION Etape de conception */
 /* SECTION Retour de tests utilistauers */
 /* SECTION MAJ */
-/* Footer */

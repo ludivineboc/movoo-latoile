@@ -14,10 +14,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <!-- <header class="flex">
-        <img src="assets/Movoo.png" alt="logo de l'application Movoo" width="168px">
+    <header class="flex">
+        <span><img src="assets/Movoo.png" alt=""></span>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
         <nav class="btnMovoo" width="50%">Le contenu de la NavBar</nav>
-    </header> -->
+    </header> 
 
     <!-- ================ -->
     <!-- 1 - Section HERO -->
@@ -124,7 +128,7 @@
     <!-- 3 - Section POURQUOI MOVOO ? -->
     <!-- ============================ -->
     <section class="hero backGroundGradientReverse flex justifyContentCenter marginAuto paddingSection alignItemCenter">
-        <div>
+        <div class="marginBottom48">
             <h3 class="marginBottom48">Pourquoi Movoo ?</h3>
 
             <!-- Cartes -->
@@ -165,12 +169,12 @@
     <!-- ===================== -->
     <section class="hero backGroundWhite container paddingSection">
 
-        <h3>Comment fonctionne <span><img src="assets/Movoo.png" alt=""></span> ?</h3>
+        <h3 class="marginBottom32">Comment fonctionne <span><img src="assets/Movoo.png" alt=""></span> ?</h3>
 
 
         <!-- Rencontre -->
 
-        <div class="flex justifyContentCenter">
+        <div class="flex justifyContentCenter" data-aos="fade-up-right" data-aos-anchor-placement="center-bottom">
             
             
             <div class="width30Pourcent split">
@@ -194,7 +198,7 @@
 
         </div>
         <!-- Organisation -->
-        <div class="flex justifyContentCenter">
+        <div class="flex justifyContentCenter" data-aos="fade-up-left" data-aos-anchor-placement="center-bottom">
             
             
             <div class="width30Pourcent split">
@@ -221,7 +225,7 @@
 
         </div>
         <!-- Messagerie -->
-        <div class="flex justifyContentCenter">
+        <div class="flex justifyContentCenter" data-aos="fade-up-right" data-aos-anchor-placement="center-bottom">
             
             
             <div class="width30Pourcent split">
@@ -244,7 +248,7 @@
 
         </div>
         <!-- Map interactive -->
-        <div class="flex justifyContentCenter">
+        <div class="flex justifyContentCenter" data-aos="fade-up-left" data-aos-anchor-placement="center-bottom">
             
             
             <div class="width30Pourcent split">
@@ -281,11 +285,11 @@
     <section class="hero backGroundGradient paddingSection">
         
         <div>
-            <h3>Témoignages client</h3>
+            <h3 class="marginBottom32">Témoignages client</h3>
 
-            <h4 class="textAlignCenter">Déjà 500 personnes sur notre application</h4>
+            <h4 class="textAlignCenter marginBottom64">Déjà 500 personnes sur notre application</h4>
             <div class="flex justifyContentCenter gap32">
-                <div class="card1">
+                <div class="cardTemoignage">
                     <div class="">
                         <img src="assets/temoignages/Temoignage_1.png" alt="">
                         <h4>David</h4>
@@ -293,7 +297,7 @@
                     </div>
                 </div>
             
-                <div class="card1">
+                <div class="cardTemoignage">
                     <div class="">
                         <img src="assets/temoignages/Temoignage_2.png" alt="">
                         <h4>William</h4>
@@ -301,7 +305,7 @@
                     </div>
                 </div>
             
-                <div class="card1">
+                <div class="cardTemoignage">
                     <div class="">
                         <img src="assets/temoignages/Temoignage_3.png" alt="">
                         <h4>Laurent</h4>
@@ -314,21 +318,27 @@
     </section>
 
     <!-- Play & AppStore -->
-    <section class="paddingSection">
-        <div>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="900" src="https://embed.figma.com/proto/uAfCnWxMIk2rn4JofFOqU6/projet-1-Movoo-groupe2?page-id=4711%3A10978&node-id=4711-11258&p=f&viewport=53%2C402%2C0.09&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4711%3A11640&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+    <section class="flex paddingSection justifyContentCenter">
+        
+        <div class="paddingSection container width10Pourcent">
+            <!-- Texte -->
+            <div class="marginBottom48">
+                <h3>Une solution de mobilité douce</h3>
+                <h3 class="marginBottom32">intuitive et éco-responsable</h3>
+                <p>Grâce à notre application, accompagnez votre enfant dans ses déplacements quotidiens en toute sécurité et simplicité. Offrant une solution de mobilité douce, intuitive et éco-responsable, elle vous permet de planifier des trajets adaptés à leurs besoins tout en favorisant un mode de transport respectueux de l’environnement. De plus, grâce à la carte en temps réel, suivez votre enfant en direct, où qu’il soit, pour une tranquillité d'esprit totale. Parce que chaque trajet compte, choisissez une alternative pratique, sécurisée pour vos petits aventuriers.</p>
+            </div>
+            <!-- Embbed Figma -->
+            <div class="width100Pourcent">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="800" src="https://embed.figma.com/proto/uAfCnWxMIk2rn4JofFOqU6/projet-1-Movoo-groupe2?page-id=4711%3A10978&node-id=4711-11258&p=f&viewport=53%2C402%2C0.09&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4711%3A11640&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
+            </div>
         </div>
 
-    
-        <div class="paddingSection container">
-            <h3>Une solution de mobilité douce</h3>
-            <h3 class="marginBottom32">intuitive et éco-responsable</h3>
-            <p>Grâce à notre application, accompagnez votre enfant dans ses déplacements quotidiens en toute sécurité et simplicité. Offrant une solution de mobilité douce, intuitive et éco-responsable, elle vous permet de planifier des trajets adaptés à leurs besoins tout en favorisant un mode de transport respectueux de l’environnement. De plus, grâce à la carte en temps réel, suivez votre enfant en direct, où qu’il soit, pour une tranquillité d'esprit totale. Parce que chaque trajet compte, choisissez une alternative pratique, sécurisée pour vos petits aventuriers.</p>
-        </div>
-            <div class="flex justifyContentCenter marginAuto gap32">
+        <!-- Applications -->
+        <div class="flex justifyContentCenter marginAuto gap32">
             <img src="assets/AppStore.png" alt="Lien qui mène au AppleStore" class="imgBoutonStore">
             <img src="assets/Playstore.png" alt="Lien qui mène au Playstore" class="imgBoutonStore">
         </div>
+        
     </section>
     <!-- =============================== -->
     <!-- ============FOOTER============= -->
@@ -362,7 +372,6 @@
                 <p class="colorWhite">&#169 2025 Movoo Inc. Tous droits réservés.</p>
                 <p class="colorWhite">Application simple  - Pourquoi Movoo ? - Comment fonctionne Movoo ? - Témoignages clients - Comment utilise-t-on Movoo ?</p>
             </div>
-
         </div>
     </footer>
 </body>
