@@ -264,17 +264,17 @@ span img{
     height: 28px;
 }
 .positionHero{
-    top: 10%;
+    top: 16%;
 }
 .qrCode{
     margin-top: 32px;
     /* background-color: white; */
-    width: 122px;
-    height: 122px;
+    width: 10em;
+    height: 10em;
 }
 .qrCode img{
-    width: 122px;
-    height: 122px;
+    width: 10em;
+    height: 10em;
 }
 .shothero {
     position: absolute;
@@ -297,6 +297,7 @@ span img{
 ================================================= */
 .card{
     width: 30%;
+    max-width: 40%;
     background-color: var(--violet);
     border-radius: var(--radius32);
     display: flex;
@@ -306,6 +307,9 @@ span img{
     color: white;
     align-items: self-start;
     min-height: 320px;
+    img {
+        margin-bottom: 8px;
+    }
 }
 .card h4 {
     color: white;
@@ -440,6 +444,7 @@ background: var(--gradientMovoo);
 ================================================= */
 .cardTemoignage{
     width: 30%;
+    max-width: 35em;
     background-color: var(--violet);
     border-radius: var(--radius32);
     display: flex;
@@ -516,6 +521,7 @@ iframe {
     border-radius: 40px;
     background-color:white;
     color: var(--violet);
+    outline: 1px solid var(--ecriture);
 }
 a {
     text-decoration: none;
