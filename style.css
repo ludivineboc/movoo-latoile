@@ -325,6 +325,10 @@ background: var(--gradientMovoo);
 .backGroundWhite{
     background-color: white;
 }
+.backGroundBlue{
+    background: rgb(221,241,255);
+background: linear-gradient(0deg, rgba(221,241,255,1) 0%, rgba(228,244,255,1) 46%, rgba(221,241,255,1) 100%);
+}
 .bulle{
     background-color: var(--violet);
     padding: 32px;
