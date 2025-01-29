@@ -54,8 +54,8 @@
     <!-- ================ -->
     <!-- 1 - menu latérale -->
     <!-- ================ -->
-            <aside class="navContainer width20Pourcent">
-                <nav>
+            <aside class="navContainer width20Pourcent ">
+                <nav class="sommaire">
                     <ul>
                         <li><a href="#pourquoi-cette-idee">Pourquoi cette idée ?</a></li>
                         <li><a href="#pour-qui">Pour qui ?</a></li>
@@ -154,40 +154,33 @@
                     <img src="assets_docu/UserFlow.png" alt="Userflow" class="width100Pourcent">
                 </section>
                 
+                <!-- ETAPES CONCEPTIONS-->
 
-                <section id="etapes-conception" class="etapesConception paddingSection">  <!-- ETAPES COCNEPTIONS-->
+                <section id="etapes-conception" class="etapesConception paddingSection">  
                     <h2 class="marginBottom64 textAlignCenter"> Etapes de conception</h2>
-                
-
                     <!--LowFi-->
                     <h3>Low Fi</h3>
                     <img src="assets_docu/Etapes_conception/low_fi.png" alt="" class="width100Pourcent marginBottom48 marginTop48">
-
                     <!--Midfi-->
                     <h3>Mid Fi</h3>
                     <div class="flex spaceBetween marginBottom48 marginTop48 width100Pourcent">
-
-
-                        <div class="width20Pourcent">
-                            <img src="assets_docu/Etapes_conception/Mid_fi/carte_midfi.png" alt="" class="width100Pourcent imgEtape">
-                            <p>Sous titre</p>
-                        </div>
-
                         <div class="width20Pourcent">
                             <img src="assets_docu/Etapes_conception/Mid_fi/Messageriemidfi.png" alt="" class="width100Pourcent imgEtape">
-                            <p>Sous titre</p>
+                            <p>Messagerie</p>
                         </div>
-
                         <div class="width20Pourcent">
                             <img src="assets_docu/Etapes_conception/Mid_fi/Profil_midfi.png" alt="" class="width100Pourcent imgEtape">
-
-                            <p>Sous titre</p>
+                            <p>Profil</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Mid_fi/carte_midfi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Suivi du trajet</p>
                         </div>
 
                         
                         <div class="width20Pourcent">
                             <img src="assets_docu/Etapes_conception/Mid_fi/reserver_un_trajet_midfi.png" alt="" class="width100Pourcent imgEtape">
-                            <p>Sous titre</p>
+                            <p>Réserver un trajet</p>
                         </div>
                         
                     </div>
@@ -197,26 +190,20 @@
                     <div class="flex spaceBetween marginBottom48 marginTop48 width100Pourcent">
                         <div class="width20Pourcent">
                             <img src="assets_docu/Etapes_conception/High_fi/Messagerie_high-fi.png" alt="" class="width100Pourcent imgEtape" >
-                            <p>Sous titre</p>
+                            <p>Messagerie</p>
                         </div>
-
-                        <div class="width20Pourcent">
-                            <img src="assets_docu/Etapes_conception/High_fi/profil_high-fi.png" alt="" class="width100Pourcent imgEtape">
-                            <p>Sous titre</p>
-                        </div>
-
                         <div class="width20Pourcent">
                             <img src="assets_docu/Etapes_conception/High_fi/reserver_un_trajet_high-fi.png" alt="" class="width100Pourcent imgEtape">
-                            <p>Sous titre</p>
+                            <p>Réserver un trajet</p>
                         </div>
-
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/High_fi/profil_high-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Profil</p>
+                        </div>
                         <div class="width20Pourcent">
                             <img src="assets_docu/Etapes_conception/High_fi/suivi_trajet_high-fi.png" alt="" class="width100Pourcent imgEtape">
-
-                            <p>Sous titre</p>
+                            <p>Suivi du trajet</p>
                         </div>
-
-                        
                     </div>
 
 
@@ -228,7 +215,7 @@
                 <!-- SECTION PROTOTYPE-->
                 <section id="prototype" class="paddingSection">  
                     <h2 class="marginBottom64 textAlignCenter">Prototype</h2>
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500px" height="450" src="https://embed.figma.com/proto/uAfCnWxMIk2rn4JofFOqU6/projet-1-Movoo-groupe2?page-id=1%3A2&node-id=3953-4062&viewport=1558%2C-845%2C0.18&scaling=scale-down" allowfullscreen></iframe>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" margin="auto" width="800" height="450" src="https://embed.figma.com/proto/uAfCnWxMIk2rn4JofFOqU6/projet-1-Movoo-groupe2?page-id=1%3A2&node-id=3953-4062&viewport=1558%2C-845%2C0.18&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3953%3A4927&show-proto-sidebar=1&embed-host=share" allowfullscreen></iframe>
                 </section>
 
 
@@ -240,25 +227,54 @@
                     <p>La majorité des utilisateurs ont compris la fonctionnalité de l’application, ils ont dit que l’application est <span class="bold">intuitif et facile d’utilisation.</span> 
                         <br>
                         De plus, ils recommandent fortement l’application et ont attesté vouloir utiliser l’application lorsqu’il seront en mesure de pouvoir l’utiliser. Cependant au niveau de l’accueil, il y a eu une certaine <span class="bold">incompréhension des boutons à appuyer </span> et, qui est dû au fait que lire la description après le titre n’est pas intuitif pour un utilisateur, il a donc été modifié.</p>
-                    <ul>
-                        <li class="marginTop48">Lors de notre test utilisateur, une personne n’a pas réussi à bien comprendre ce qu’il fallait faire, on s’est rendu compte qu’il s’agit au moment de la notification de la réception du message de l’accompagnant  qui était  trop petit et donc on a voulu faire une notification type iPhone qui est plus intuitif et facile de compréhension.
-                            <div class="flex">
+                    <ul class="width100Pourcent">
+                        <li class="marginTop48">
+                            <h4>Notifications</h3>
+                                Durant la phase des messages, l’affichage des boutons n’était pas assez compréhensible, nous avons décidé de l’agrandir, de centrer les boutons, de rajouter un aperçu du trajet sous forme d’une mini carte et d’y mettre une petite animation afin qu’elle soit plus facile de compréhension.
+                            <div class="flex width100Pourcent spaceAround marginTop48">
                                 <div class="width35Pourcent"> 
-                                    <img src="" alt="" class="width100Pourcent"> 
-                                    <p>Avant</p>
+                                    <img src="assets_docu/retour_tests/messagerie_avant.png" alt="" class="width100Pourcent"> 
+                                    <p class="textAlignCenter">Avant</p>
                                 </div>
                                 <div class="width35Pourcent"> 
-                                    <img src="" alt="" class="width100Pourcent"> 
-                                    <p>Aprés</p> 
+                                    <img src="assets_docu/retour_tests/messagerie_apres.png" alt="" class="width100Pourcent"> 
+                                    <p class="textAlignCenter">Aprés</p> 
 
                                 </div>
                             </div>
                         </li>
 
-                        <li class="marginTop48">Au niveau de l’écran d’accueil, nous n’avions pas rajouté la fonctionnalité de réservation temporaire, pour que ce soit plus facile de compréhension, nous avons décidé de rajouter un bouton permettant directement de confirmer la réservation directement de l’accueil. 
+                        <li class="marginTop48">
+                            <h4>Fonctionnalité de réservation</h3>
+                            Au niveau de l’écran d’accueil, nous n’avions pas rajouté la fonctionnalité de réservation temporaire, pour que ce soit plus facile de compréhension, nous avons décidé de rajouter un bouton permettant directement de confirmer la réservation directement de l’accueil. 
+                            <div class="flex width100Pourcent spaceAround marginTop48">
+                                <div class="width35Pourcent"> 
+                                    <img src="assets_docu/retour_tests/accueil_avant.png" alt="" class="width100Pourcent"> 
+                                    <p class="textAlignCenter">Avant</p>
+                                </div>
+                                <div class="width35Pourcent"> 
+                                    <img src="assets_docu/retour_tests/accueil_apres.png" alt="" class="width100Pourcent"> 
+                                    <p class="textAlignCenter">Aprés</p> 
+
+                                </div>
+                            </div>
                         </li>
 
-                        <li class="marginTop48">Durant la phase des messages, l’affichage des boutons n’était pas assez compréhensible, nous avons décidé de l’agrandir, de centrer les boutons, de rajouter un aperçu du trajet sous forme d’une mini carte et d’y mettre une petite animation afin qu’elle soit plus facile de compréhension.
+                        <li class="marginTop48">
+                            <h4>Notifications</h3>
+                                Lors de notre test utilisateur, une personne n’a pas réussi à bien comprendre ce qu’il fallait faire, on s’est rendu compte qu’il s’agit au moment de la notification de la réception du message de l’accompagnant  qui était  trop petit et donc on a voulu faire une notification type iPhone qui est plus intuitif et facile de compréhension.
+
+                            <div class="flex width100Pourcent spaceAround marginTop48">
+                                <div class="width35Pourcent"> 
+                                    <img src="assets_docu/retour_tests/notification_avant.png" alt="" class="width100Pourcent"> 
+                                    <p class="textAlignCenter">Avant</p>
+                                </div>
+                                <div class="width35Pourcent"> 
+                                    <img src="assets_docu/retour_tests/notification_après.png" alt="" class="width100Pourcent"> 
+                                    <p class="textAlignCenter">Aprés</p> 
+
+                                </div>
+                            </div>
                         </li>
                     </ul>
 
@@ -285,9 +301,8 @@
                         <li>Suite à l’ajout de certaines fonctionnalités principales et secondaire, il y aura la possibilité de mettre en favoris les accompagnateur et ils seront visible dans l’écran d’accueil des fonctionnalités pédibus (trajets scolaires et extra scolaires) et les courses pour qu’ils soient plus facile d’accès.</li>
                     </ul>
                     
-                    </section>
+                </section>
             </main>
-            
         
 </body>
 </html>
