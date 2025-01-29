@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css"/>
     <script src="app.js" defer></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="bodyDocu">
 
@@ -20,9 +20,9 @@
     <!-- ================ -->
 
     
-    <header class="flex">
-        <span><img class="justifyContentCenter" src="assets/Movoo.png" alt=""></span>
-        <a href="">Landing Page</a>
+    <header class="flex alignItemCenter width100Pourcent">
+        <span class="padding10"><img class="paddingleft30" src="assets/logo_movoo.svg" alt=""></span>
+        <a href="index.html" class="colorHeader marginLeft100 justifyContentCenter">Landing Page</a>
     </header>
 
     
@@ -40,7 +40,7 @@
                 <div class=" justifyContentLeft  marginBottom32">
                     <div class="marginBottom16 width70Pourcent">
                         <h4>Tout ce que tu dois savoir sur 
-                        notre application <span><img src="assets/Movoo.png" alt=""></span></h4>
+                        notre application <span><img src="assets/logo_movoo.svg" alt=""></span></h4>
                     </div>
                     <div class="marginBottom48">
                         <p>Notre application met en évidence la mobilité douce qui permet aux enfants de se déplacer de manière écologique et sécurisée.</p>
@@ -90,16 +90,20 @@
                     <h2 class="marginBottom64 textAlignCenter">Pourquoi cette idée ?</h2>
 
                     <div class="flex spaceBetween" >
-                        <img src="assets_docu/famille.png" alt="" class="width40Pourcent">
-                        <p class="width50Pourcent"> 
+                        <img src="assets_docu/famille.png" alt="" class="width40Pourcent imgidée">
+                    <div class="width50Pourcent flex gap32">
+                        <p> 
                             <span class="bold">
                             La sédentarité touche de plus en plus d'adultes et d'enfants, les activités physiques diminuent, tandis que la pollution croissante de nos villes appelle à une transition vers des modes de transport plus doux et plus responsables.
                             </span>
-
-                            Ces deux thématiques nous ont semblé constituer un bon point de départ pour développer une reflexion autour du développement de la mobilité douce dans le but de maintenir la santé de la population.
-                            
-                            Nous avons décidé de nous concentrer sur les milieu urbain et plus particulièrement la ville de Saint-Etienne. Notre concept est destiné au
                         </p>
+                        <p>
+                            Ces deux thématiques nous ont semblé constituer un bon point de départ pour développer une reflexion autour du développement de la mobilité douce dans le but de maintenir la santé de la population.
+                        </p>
+                        <p>
+                            Nous avons décidé de nous concentrer sur les milieu urbain et plus particulièrement la ville de Saint-Etienne. Notre concept est principalement destiné aux enfants des parents pour le moment.
+                        </p>
+
                     </div>
                 </section>
                 <!-- POUR QUI-->
@@ -133,11 +137,11 @@
 
                         <img src="assets_docu/fiche_persona.png" alt="" class="width100Pourcent">
 
-                        <p>Autres persona imaginés mais écartés afin de se concentrer sur le public des parents et des enfants  : </p>
-                        <ul>
-                            <li><a href="" title="Persona 2">Persona 2</a></li>
-                            <li><a href="" title="Persona3">Persona 3</a></li>
-                        </ul>
+                        <p class="padding10">Autres persona imaginés mais écartés afin de se concentrer sur le public des parents et des enfants  : </p>
+                        <div class="flex">
+                            <div class="flex padding10"><img src="assets_docu/pdf.png" alt="icône pdf" class="sizePdf"><a href="assets_docu/Lea_Persona.pdf" title="Persona 2 Léa" class="colorText">Persona 2</a></div>
+                            <div class="flex padding10"><img src="assets_docu/pdf.png" alt="icône pdf" class="sizePdf"><a href="" title="Persona3" class="colorText">Persona 3</a></div>
+                         </div>
                 </section>
 
                 <section id="problematique" class="paddingSection"> <!-- PROBLEMATIQUE-->
@@ -150,7 +154,7 @@
                 <section id="notre-solution" class="paddingSection">  <!-- SOLUTION-->
                     <h2 class="marginBottom64 textAlignCenter" >Notre solution</h2>
                     <p>Une <span class="bold">application mobile </span>aidant les parents à trouver un accompagnant lors des déplacements de <span class="bold">mobilité douce</span> de leurs enfants.</p>
-                    <ul class="solutionList marginTop48">
+                    <ul class="solutionList padding10">
                         <li>Une liste d’accompagnants de <span class="bold">confiance</span> </li>
                         <li>La possibilité de <span class="bold">filtrer les trajets</span> en fonction de nos exigences</li>
                         <li>Un espace de <span class="bold">messagerie  </span>pour échanger entre parents etaccompagnants</li>
@@ -170,7 +174,24 @@
                     <h2 class="marginBottom64 textAlignCenter"> Etapes de conception</h2>
                     <!--LowFi-->
                     <h3>Low Fi</h3>
-                    <img src="assets_docu/Etapes_conception/low_fi.png" alt="" class="width100Pourcent marginBottom48 marginTop48">
+                    <div class="flex spaceBetween marginBottom48 marginTop48 width100Pourcent">
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Low_fi/messageri_low-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Messagerie</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Low_fi/profil_low-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Profil</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Low_fi/trajet_low-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Suivi du trajet</p>
+                        </div>
+                        <div class="width20Pourcent">
+                            <img src="assets_docu/Etapes_conception/Low_fi/trajet_low-fi.png" alt="" class="width100Pourcent imgEtape">
+                            <p>Réserver un trajet</p>
+                        </div>
+                    </div>
                     <!--Midfi-->
                     <h3>Mid Fi</h3>
                     <div class="flex spaceBetween marginBottom48 marginTop48 width100Pourcent">
@@ -297,14 +318,14 @@
                 <!-- SECTION  MISE A JOURS FUTUR-->
                 <section id="futuremaj" class="paddingSection">  
                     <h2 class="marginBottom64 textAlignCenter">Future mise à jour</h2>
-                    <p>Afin de proposer un services toujours plus proche de nos utilisateurs, nous avons envisagé des futurs fonctionnalités : </p>
-                    <p>3 grandes nouvelles fonctionnalités seront ajouté : </p>
-                    <ul >
+                    <p class="bold">Afin de proposer un services toujours plus proche de nos utilisateurs, nous avons envisagé des futurs fonctionnalités : </p>
+                    <p class="tdu padding10">3 grandes nouvelles fonctionnalités seront ajouté :</p>
+                    <ul>
                         <li>La marche détente qui consistera à pouvoir se promener en binôme ou en groupe avec d’autres personnes grâce au site. Ils pourront être filtrés  en fonction des exigences des différents utilisateurs (sous forme de tag)</li>
                         <li>La balade à vélo qui suit le même principe que la marche détente mais avec une mobilité douce différente, ici le vélo</li>
                         <li>Les courses qui consiste à accompagner une personne en incapacité de pouvoir faire ses courses seuls, cela peut cible les personnes âgés comme les personnes à mobilité réduites ou éventuellement les personnes possédant une maladie non visible</li>
                     </ul>
-                    <p>1 nouvelle fonctionnalité secondaire sera ajouté dans la catégorie  pédibus :</p>
+                    <p class="tdu padding10">1 nouvelle fonctionnalité secondaire sera ajouté dans la catégorie  pédibus :</p>
                     <ul>
                         <li>La fonctionnalité “Réserver un trajet” qui consiste à pouvoir effectuer des trajets extra-scolaire avec le même principe que les trajets scolaires en terme de cheminement.</li>
                         <li>Suite à l’ajout de certaines fonctionnalités principales, certaines document supplémentaires pourront être demandé en plus comme le bac pro ASSP ou d’autres certification de service à la personnes afin de rassurer les utilisateurs lors de l’utilisation d’un ou plusieurs de nos services.</li>
