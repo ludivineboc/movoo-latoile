@@ -40,7 +40,7 @@
                 </div>
             </div>
             <!-- Play & AppStore -->
-            <div class="flex justifyContentLeft marginAuto gap32 marginBottom64">
+            <div class="flex justifyContentLeft marginAuto gap32 marginBottom64 ">
                 <img src="assets/AppStore.png" alt="Lien qui mène au AppleStore" class="imgBoutonStore">
                 <img src="assets/Playstore.png" alt="Lien qui mène au Playstore" class="imgBoutonStore">
             </div>
@@ -80,7 +80,7 @@
                         <!-- Image -->
                         <div class="minSVGsize"><img src="assets/avatanges/disponibilite.svg" alt="Image d'un calendrier"></div>
                         <!-- Texte -->
-                        <div>
+                        <div class="textAlignCenter">
                             <h4>Disponibilité</h4>
                             <p>Nos accompagnateurs sont prêts à garantir un trajet en toute sécurité et sérénité pour votre enfant, en fonction de vos besoins et horaires.</p>
                         </div>
@@ -93,7 +93,7 @@
                         <!-- Image -->
                         <div class="minSVGsize"><img src="assets/avatanges/securisant.svg" alt="Image d'un bouclier"></div>
                         <!-- Texte -->
-                        <div>
+                        <div class="textAlignCenter">
                             <h4>Sécurisant</h4>
                             <p>Notre application offre un suivi en temps réel garantissant des trajets sûrs et sereins.</p>
                         </div>
@@ -106,7 +106,7 @@
                     <div class="flex justifyContentCenter">
                         <img src="assets/avatanges/gratuit_sac.svg" alt="" class="positionRelative">
                         <img src="assets/avatanges/gratuit_euro.svg" alt="" class="positionAbsolute configAbsolute">
-                        <div>
+                        <div class="textAlignCenter">
                             <h4>Gratuit</h4>
                             <p>L'application est entièrement gratuite, pour que vous puissiez profiter d'une mobilité douce !</p>
                         </div>
@@ -163,13 +163,14 @@
     <!-- ===================== -->
     <!-- 4 - Section Comment ? -->
     <!-- ===================== -->
-    <section class="hero backGroundWhite">
+    <section class="hero backGroundWhite container">
 
         <h3>Comment fonctionne <span><img src="assets/Movoo.png" alt=""></span> ?</h3>
 
 
         <!-- Rencontre -->
-        <div class="flex">
+
+        <div class="flex justifyContentCenter">
             
             
             <div class="width30Pourcent split">
@@ -177,8 +178,13 @@
             </div>
             
             
-            <div class="width30Pourcent split">
-                <img src="assets/comment-ca-marche/Bulle_gauche.svg" alt="">
+            <div class="width30Pourcent split bulle bulle-gauche">
+                <img src="assets/comment-ca-marche/Icones_svg/rencontre.svg" alt="">
+                <div>
+                    <h4>Rencontre</h4>
+                    <p>Un accompagnant toujours disponible</p>
+                    <p>Par chat, par téléphone</p>
+                </div>
             </div>
             
             
@@ -188,7 +194,7 @@
 
         </div>
         <!-- Organisation -->
-        <div class="flex">
+        <div class="flex justifyContentCenter">
             
             
             <div class="width30Pourcent split">
@@ -196,20 +202,25 @@
             </div>
             
             
-            <div class="width30Pourcent split">
-                <img src="assets/comment-ca-marche/Bulle_droite.svg" alt="">
+            <div class="width30Pourcent split bulle bulle-droite">
+                <img src="assets/comment-ca-marche/Icones_svg/Calendrier.svg" alt="">
+                <div>
+                    <h4>Organisation</h4>
+                    <p>Besoins réguliers ou ponctuels ?</p>
+                    <p>Il y a toujours quelqu'un de disponible</p>
+                </div>
             </div>
             
             
             <div class="width30Pourcent split">
-                <img src="assets/comment-ca-marche/shots/Pedibus_de_Gerard.png" alt="">
+                <img src="assets/comment-ca-marche/shots/Pedibus_de_Gerard.png" alt="" srcset="">
             </div>
             
 
 
         </div>
         <!-- Messagerie -->
-        <div class="flex">
+        <div class="flex justifyContentCenter">
             
             
             <div class="width30Pourcent split">
@@ -217,8 +228,12 @@
             </div>
             
             
-            <div class="width30Pourcent split">
-                <img src="assets/comment-ca-marche/Bulle_gauche.svg" alt="">
+            <div class="width30Pourcent split bulle bulle-gauche">
+                <img src="assets/comment-ca-marche/Icones_svg/bulle_messagerie.svg" alt="">
+                <div>
+                    <h4>Messagerie</h4>
+                    <p>Securité totale, les messages et les appels personnels sont chiffrés de bout en bout</p>
+                </div>
             </div>
             
             
@@ -228,7 +243,7 @@
 
         </div>
         <!-- Map interactive -->
-        <div class="flex">
+        <div class="flex justifyContentCenter">
             
             
             <div class="width30Pourcent split">
@@ -236,8 +251,12 @@
             </div>
             
             
-            <div class="width30Pourcent split">
-                <img src="assets/comment-ca-marche/Bulle_droite.svg" alt="">
+            <div class="width30Pourcent split bulle bulle-droite">
+                <img src="assets/comment-ca-marche/Icones_svg/carte.svg" alt="">
+                <div>
+                    <h4>Carte interactive</h4>
+                    <p>Suivi en temps réel pour les mamans et papas poules</p>
+                </div>
             </div>
             
             
@@ -248,35 +267,49 @@
 
 
         </div>
+        <div></div>
         
     </section>
+    
+    
 
-    
-    
 
     <!-- =============================== -->
     <!-- 5 - Section TEMOIGNAGES CLIENTS -->
     <!-- =============================== -->
     <section class="hero backGroundGradient">
-        <h3>Témoignages client</h3>
-
-        <h4 class="textAlignCenter">Déjà 500 personnes sur notre application</h4>
         
         <div>
-            <img src="" alt="">
-            <h4>David</h4>
-            <p>"J'utilise Movoo depuis quelques semaines et l'interface est simple et intuitive. Je la recommande vivement !"</p>
+            <h3>Témoignages client</h3>
+
+            <h4 class="textAlignCenter">Déjà 500 personnes sur notre application</h4>
+            <div class="flex justifyContentCenter">
+                <div class="card1">
+                    <div class="">
+                        <img src="assets/temoignages/Temoignage_1.png" alt="">
+                        <h4>David</h4>
+                        <p>"J'utilise Movoo depuis quelques semaines et l'interface est simple et intuitive. Je la recommande vivement !"</p>
+                    </div>
+                </div>
+            
+                <div class="card1">
+                    <div class="">
+                        <img src="assets/temoignages/Temoignage_2.png" alt="">
+                        <h4>William</h4>
+                        <p>“Grâce à Movoo, je peux suivre les trajets de mon enfant en toute sécurité tout en encourageant des modes de transport plus écologiques. C’est simple, pratique et rassurant !”</p>
+                    </div>
+                </div>
+            
+                <div class="card1">
+                    <div class="">
+                        <img src="assets/temoignages/Temoignage_3.png" alt="">
+                        <h4>Laurent</h4>
+                        <p>"Avec Movoo, je suis serein en voyant mon enfant se déplacer de manière éco-responsable et en toute sécurité."</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="" alt="">
-            <h4>William</h4>
-            <p>“Grâce à Movoo, je peux suivre les trajets de mon enfant en toute sécurité tout en encourageant des modes de transport plus écologiques. C’est simple, pratique et rassurant !”</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <h4>Laurent</h4>
-            <p>"Avec Movoo, je suis serein en voyant mon enfant se déplacer de manière éco-responsable et en toute sécurité."</p>
-        </div>
+
     </section>
 
     <!-- Play & AppStore -->
@@ -329,7 +362,6 @@
             </div>
 
         </div>
-
     </footer>
 </body>
 </html>

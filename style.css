@@ -31,6 +31,7 @@
 a {
   text-decoration: none;
 }
+
 li {
   list-style-type: none;
 }
@@ -180,8 +181,13 @@ h4{
     text-align: center;
 }
 
+.bold {
+    font-weight: 600;
+}
 
-
+.grayFont {
+    color: #5F5858;
+}
 
 /* =================================================
                     HERO
@@ -249,6 +255,8 @@ span img{
 
 
 
+
+
 /* =================================================
                     COMMENT ?
 ================================================= */
@@ -270,9 +278,89 @@ background: var(--gradientMovoo);
 .backGroundWhite{
     background-color: white;
 }
+.bulle{
+    background-color: var(--violet);
+    padding: 32px;
+    border-radius: 32px ;
+    color: #fff;
+    max-width: 600px;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        fill: white;
+        max-width: 64px;
+        max-height: 64px;
+        padding-bottom: 16px;
+    }
+    h4{
+        color: white;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    p{
 
+    }
+}
 
+.bulle-gauche{
+    margin-left: -64px;
+    border-radius: 32px 32px 32px 0;
 
+}
+.bulle-gauche::after{
+    content:'';
+    width: 32px;
+    height: 32px;
+    border-radius: 0 0 32px 0;
+    position: absolute;
+    top:90%;
+    left: -8px;
+    background-color: var(--violet);
+    z-index: 1;
+    transform: rotate(30deg);
+}
+.bulle-droite{
+    margin-right: -64px;
+    border-radius: 32px 32px 0px 32px;
+}
+.bulle-droite::after{
+    content:'';
+    width: 32px;
+    height: 32px;
+    border-radius: 0 0 0 32px;
+    position: absolute;
+    top:90%;
+    right: -8px;
+    background-color: var(--violet);
+    z-index: 1;
+    transform: rotate(-26deg);
+}
+
+/* =================================================
+                    TEMOIGNAGES
+================================================= */
+.card1{
+    width: 20%;
+    background-color: var(--violet);
+    border-radius: var(--radius32);
+    display: flex;
+    flex-direction: column;
+    /* gap: 56px; */
+    padding: 24px;
+    color: white;
+    align-items: self-start;
+    min-height: 320px;
+    
+    h4{
+        color: white;
+    }
+    img{
+        width: 100%;
+    }
+}
 
 /* =================================================
                     FOOTER
@@ -392,12 +480,38 @@ aside{
     color: var(--ecriture);
     background-color: var(--bleu-ciel);
     padding: 20px;
-    position: fixed;
+    position: sticky;
     top: 10%;
     height: 60%;
 }
 
 .contentContainer {
     padding: 20px;
-    margin-left: 20%;
 }
+
+.paddingSection {
+    padding: 70px 0 ;
+}
+
+.chiffresItem{
+    width: 30%;
+    padding: 26px 0;
+}
+.chiffreCles {
+    font-size: 3rem;
+    text-align: center;
+}
+.chffreLabeur {
+    font-size: 0.9rem;
+}
+
+
+
+/* DOCUMENTATION */
+/* SECTION Pourquoi cette idée */
+/* SECTION À qui est destiné notre application ? */
+/* SECTION Problématique */
+/* SECTION Etape de conception */
+/* SECTION Retour de tests utilistauers */
+/* SECTION MAJ */
+/* Footer */
