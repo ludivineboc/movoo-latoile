@@ -37,7 +37,6 @@ nav li{
     list-style: none;
 }
 
-
 /* =================================================
                     COULEURS
 ================================================= */
@@ -45,7 +44,9 @@ nav li{
 .colorViolet{
     color: var(--violet);
 }
-
+.colorP{
+    color: var(--ecriture);
+}
 
 
 
@@ -268,6 +269,9 @@ nav li{
 /* =================================================
                     ESPACEMENT
 ================================================= */
+.gap16{
+    gap: 16px;
+}
 .gap32{
     gap: 32px;
 }
@@ -293,6 +297,7 @@ nav li{
 /* =================================================
                     TEXTE
 ================================================= */
+
 h1{
     font-size: 30px;
     font-weight: 700;
@@ -321,6 +326,7 @@ h5{
     color: var(--ecriture);
     text-align: center;
 }
+
 header {
     color: var(--ecriture);
     position: fixed;
@@ -360,7 +366,7 @@ span img{
     height: 28px;
 }
 .positionHero{
-    top: 16%;
+    top: 18%;
 }
 .qrCode{
     margin-top: 32px;
@@ -392,8 +398,7 @@ span img{
                     AVANTAGES
 ================================================= */
 .card{
-    width: 30%;
-    max-width: 40%;
+    max-width: 22%;
     background-color: var(--violet);
     border-radius: var(--radius32);
     display: flex;
@@ -402,10 +407,11 @@ span img{
     padding: 24px;
     color: white;
     align-items: self-start;
-    min-height: 320px;
+    min-height: 290px;
     img {
         margin-bottom: 8px;
     }
+    box-shadow: 3px 3px 3px rgb(186, 174, 174);
 }
 .card h4 {
     color: white;
@@ -421,19 +427,23 @@ span img{
                     POURQUOI MOVOO
 ================================================= */
 .cardPourquoi{
-    width: 30%;
+    /* width: 30%; */
+    width: 270px;
+    height: 270px;
     background-color: var(--violet);
-    border-radius: var(--radius32);
+    border-radius: var(--cercle);
     display: flex;
     flex-direction: column;
     padding: 36px;
+    /* align-items: center; */
+    justify-content: center;
     color: white;
     p{
-        font-size: 24px;
+        font-size: 16px;
     }
     h3{
         color: white;
-        margin-bottom: 24px;
+        margin-bottom: 18px;
     }
     div{
         align-self: flex-start;
@@ -619,8 +629,21 @@ iframe {
 .btnMovoo:hover{
     padding:8px 16px;
     border-radius: 40px;
-    background-color:white;
-    color: var(--violet);
+    background-color:var(--bulle-2);
+    color: white;
+    outline: 1px solid var(--ecriture);
+}
+.btnSavoirPlus{
+    padding: 16px 64px;
+    border-radius: 40px;
+    background-color: var(--violet);
+    color: white;
+}
+.btnSavoirPlus:hover{
+    padding: 16px 64px;
+    border-radius: 40px;
+    background-color:var(--bulle-2);
+    color: white;
     outline: 1px solid var(--ecriture);
 }
 a {
@@ -810,7 +833,7 @@ aside{
 
 
 /* SECTION Pourquoi cette idée */
-.object-fit-cover {
+.imgIdée {
  object-fit: cover;
 }
 
