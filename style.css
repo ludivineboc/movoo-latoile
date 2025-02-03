@@ -661,6 +661,14 @@ a {
 .imgBoutonStore{
     width: 11em;
 }
+.miaou{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 128px;
+    z-index: 100;
+    margin-right: 20px;
+}
 
 
 
