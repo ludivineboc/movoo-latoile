@@ -81,7 +81,12 @@ nav li{
     padding-left: 30px;
 }
 
-
+.marginnegatif{
+    margin-top: -80px;
+}
+.marginBottom8{
+    margin-bottom: 6px;
+}
 .marginBottom16{
     margin-bottom: 16px;
 }
@@ -97,8 +102,8 @@ nav li{
 .marginBottom70{
     margin-bottom: 70px;
 }
-.marginBottom70{
-    margin-bottom: 70px;
+.marginBottom92{
+    margin-bottom: 92px;
 }
 .marginTop48 {
     margin-top: 48px;
@@ -358,6 +363,10 @@ header {
     text-decoration: underline;
     color: var(--ecriture);
 }
+.heroFontSize{
+    font-size: 34px;
+    font-weight: 700;
+}
 
 /* =================================================
                     HERO
@@ -372,17 +381,17 @@ span img{
     height: 28px;
 }
 .positionHero{
-    top: 18%;
+    top: 20%;
 }
 .qrCode{
     margin-top: 32px;
     /* background-color: white; */
-    width: 10em;
-    height: 10em;
+    width: 7em;
+    height: 7em;
 }
 .qrCode img{
-    width: 10em;
-    height: 10em;
+    width: 7em;
+    height: 7em;
 }
 .shothero {
     position: absolute;
@@ -492,7 +501,7 @@ background: var(--gradientMovoo);
 
 .bulle{
     background-color: var(--violet);
-    padding: 32px;
+    padding: 16px;
     transform: translate(20%,10%);
     border-radius: 32px ;
     color: #fff;
@@ -659,7 +668,7 @@ a {
     font-size: 16px;
 }
 .imgBoutonStore{
-    width: 11em;
+    width: 8em;
 }
 .miaou{
     position: fixed;
