@@ -349,9 +349,7 @@ header {
     text-align: center;
 }
 
-.bold {
-    font-weight: 400;
-}
+
 
 .grayFont {
     color: #5F5858;
@@ -866,3 +864,6 @@ aside{
 /* SECTION Etape de conception */
 /* SECTION Retour de tests utilistauers */
 /* SECTION MAJ */
+.bold {
+    font-weight: 400;
+}
