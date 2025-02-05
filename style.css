@@ -767,16 +767,21 @@ a {
 
 nav ul li a{
     color: var(--ecriture);
+    display: block;
+    width: 100%;
+    /* padding: 2px; */
 }
 nav ul li{
-    margin: 8px;
+    margin: 4px;
+    /* margin-bottom: 12px; */
     list-style-type: none;
+    display: block;
+    padding: 2px 2px 2px 10px;
 }
 
 nav ul li:hover{
     transition: 0.1s;
     outline: solid 2px var(--ecriture);
-    padding: 2px 2px 2px 10px;
     background-color: var(--violet);
         a{
             color: white;
